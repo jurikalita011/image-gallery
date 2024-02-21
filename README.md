@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# Project Title
+Responsive Random Images Galley
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+This project is a React-based web application that showcases a responsive image gallery featuring a modern card layout. The core functionality includes a navigation bar that adapts to screen size with a hamburger menu on smaller screens, and a gallery of image cards. Each card contains a placeholder image, a randomly generated title, and a price. The purpose of this project is to demonstrate the ability to create a responsive, visually appealing web application using React, CSS Grid, and Font Awesome for icons.
 
-## Available Scripts
+## Project Type
+Frontend
 
-In the project directory, you can run:
+## Deployed App
+ Frontend: [image-gallery](https://image-gallery-olive-ten.vercel.app/).
+ 
+ ## Directory Structure
+```bash
+ image-gallery/
+├─ src/
+│  ├─ allroutes/
+│  │  ├─ MainRoutes.jsx 
+│  ├─ components/
+│  │  ├─ DrawerTop.jsx
+│  │  ├─ ImageCard.jsx
+│  │  ├─ Navbar.jsx
+│  ├─ pages/
+│  │  ├─ Gallery.jsx
+│  ├─ styles/
+│  │  ├─ DrawerTop.module.css
+│  │  ├─ Gallery.module.css
+│  │  ├─ ImageCard.module.css
+│  │  ├─ Navbar.module.css
+│  ├─ App.js
+│  ├─ index.js
+├─ public/
+│  ├─ index.html
+├─ README.md
+├─ package-lock.json
+├─ package.json
+```
 
-### `npm start`
+## Features
+* Responsive navigation bar with hamburger menu for mobile devices.
+* Grid-based gallery layout that adjusts to screen size.
+* Cards featuring placeholder images, random titles, and prices.
+* Hover effect on cards for interactive user experience.
+## Design Decisions or Assumptions
+* The navigation bar collapses into a hamburger menu on smaller screens to maximize space and maintain usability.
+* Placeholder images are used in the gallery to focus on the layout and responsiveness rather than the content.
+* Random titles and prices simulate dynamic content, showcasing how the application could be adapted for real-world use.
+## Installation & Getting started
+To set up the project on your local system, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   
+2. **Change into the project directory:**
+   ```bash
+   cd <project-directory>
+   
+3. **Install dependencies:**
+   ```bash
+   npm install
+   
+4. **Start the development server:**
+   ```bash
+   npm run start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The app will be running on `http://localhost:3000/`.
 
-### `npm test`
+## Usage
+After starting the project, you can go through the application using the navigation bar for different screen sizes. Interact with the gallery by hovering over the cards to see the hover effect.
+### Larger Screen
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <img src="https://github.com/jurikalita011/image-gallery/assets/68116821/c326df71-26a9-49a0-a72a-6bdc701fd524" alt="Larger Screen">
+</p>
 
-### `npm run build`
+### Medium Screen
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+  <img src="https://github.com/jurikalita011/image-gallery/assets/68116821/898fcc5b-0717-44b4-814b-89661a1ac9f5" alt="Medium Screen">
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Small Screen
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+  <img src="https://github.com/jurikalita011/image-gallery/assets/68116821/dae8e9a1-d8ce-4597-b730-9ef1ce7e5571" alt="Small Screen">
+</p>
 
-### `npm run eject`
+### Dropdown menu on small screen
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="center">
+  <img src="https://github.com/jurikalita011/image-gallery/assets/68116821/a6474f70-76ed-44a9-94bd-34497ec2714a" alt="Dropdown Menu on Small Screen">
+</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Credentials
+No authentication is required to access the project.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Technology Stack
+* React.js: A JavaScript library for building user interfaces, providing a component-based approach to developing web apps.
+* Font Awesome: A font and icon toolkit based on CSS and Less, offering a wide range of icons for web development.
+* Chakra UI: A simple, modular, and accessible component library that gives you the building blocks to build React applications with speed. Chakra UI is designed to be practical, functional, and visually appealing, focusing on simplicity and ease of use.
