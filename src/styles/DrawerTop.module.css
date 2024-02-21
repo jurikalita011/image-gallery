@@ -1,11 +1,3 @@
-.cont {
-  background-color: black;
-}
-
-.cont > button {
-  color: white;
-}
-
 .flexCont {
   line-height: 40px;
   flex-direction: column;

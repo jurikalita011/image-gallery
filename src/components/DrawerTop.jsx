@@ -28,8 +28,8 @@ export const DrawerTop = ({ btnRef, isOpen, onClose }) => {
         finalFocusRef={btnRef}
       >
         <DrawerOverlay />
-        <DrawerContent className={styles.cont}>
-          <DrawerCloseButton />
+        <DrawerContent bg={"black"}>
+          <DrawerCloseButton color={"white"} />
 
           <DrawerBody>
             <Flex className={styles.flexCont}>
