@@ -1,0 +1,27 @@
+.cont {
+  background-color: black;
+}
+
+.cont > button {
+  color: white;
+}
+
+.flexCont {
+  line-height: 40px;
+  flex-direction: column;
+}
+
+.flexCont > a > div {
+  align-items: center;
+  justify-content: left;
+  gap: 5px;
+  p {
+    font-size: 16px;
+    color: white;
+  }
+}
+
+.icon {
+  font-size: 18px;
+  color: white;
+}
