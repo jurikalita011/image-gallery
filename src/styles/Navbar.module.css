@@ -8,18 +8,20 @@
 .main {
   align-items: center;
   justify-content: space-between;
-  a > div {
-    justify-content: space-between;
-    align-items: center;
-    gap: 5px;
-  }
-  a > div > p {
-    font-size: 18px;
-    color: white;
-    &:hover {
-      cursor: pointer;
-      color: #bcd8cf;
-    }
+}
+
+.main > a > div {
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.main > a > div > p {
+  font-size: 18px;
+  color: white;
+  &:hover {
+    cursor: pointer;
+    color: #bcd8cf;
   }
 }
 
